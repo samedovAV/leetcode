@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -14,5 +16,9 @@ class Solution {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+        // add tests
     }
 }
